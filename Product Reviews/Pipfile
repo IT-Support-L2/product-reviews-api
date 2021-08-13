@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+drf-flex-fields = "*"
+django-filter = "*"
+django-versatileimagefield = "*"
+python-magic-bin = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
